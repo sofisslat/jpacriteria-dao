@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>lat.sofis</groupId>
-    <artifactId>jpa-generic-dao</artifactId>
+    <artifactId>jpa-generic-dao-jakarta</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
     <properties>
@@ -12,18 +12,18 @@
     </properties>
 
     <dependencies>
-
+       
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>10.0.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.6.1.Final</version>
+            <version>6.2.5.Final</version>
             <scope>provided</scope>
         </dependency>
 

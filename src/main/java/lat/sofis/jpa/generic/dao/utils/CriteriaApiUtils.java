@@ -1,11 +1,11 @@
 package lat.sofis.jpa.generic.dao.utils;
 
 import java.util.logging.Logger;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.From;
-import javax.persistence.criteria.Join;
-import javax.persistence.criteria.JoinType;
-import javax.persistence.criteria.PluralJoin;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.From;
+import jakarta.persistence.criteria.Join;
+import jakarta.persistence.criteria.JoinType;
+import jakarta.persistence.criteria.PluralJoin;
 
 /**
  * Utilities for JPA Criteria Api
